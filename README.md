@@ -1,4 +1,4 @@
-# CompleteBoneMeal
+# Complete Bone Meal
 Make Bone Meal applicable to *all* growables!
 
 The new "Bone Meal"-able crops include:
