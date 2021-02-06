@@ -7,7 +7,8 @@
     "CactusBlockMixin",
     "SugarCaneBlockMixin",
     "NetherWartBlockMixin",
-    "VineBlockMixin"
+    "VineBlockMixin",
+    "ChorusFlowerBlockMixin"
   ],
   "client": [
   ],
