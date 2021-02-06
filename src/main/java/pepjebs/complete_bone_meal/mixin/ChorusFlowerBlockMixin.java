@@ -3,7 +3,6 @@ package pepjebs.complete_bone_meal.mixin;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ChorusFlowerBlock;
 import net.minecraft.block.Fertilizable;
-import net.minecraft.block.VineBlock;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
