@@ -1,0 +1,8 @@
+{
+  "text.autoconfig.complete_bone_meal.title": "Complete Bone Meal Config",
+  "text.autoconfig.complete_bone_meal.option.enableCactusBoneMeal": "If 'true', Cactuses will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableChorusFlowerBoneMeal": "If 'true', Chorus Flowers will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableNetherWartBoneMeal": "If 'true', Nether Warts will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableSugarCaneBoneMeal": "If 'true', Sugar Canes will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableVineBoneMeal": "If 'true', Vines will be Bone-Meal-able"
+}

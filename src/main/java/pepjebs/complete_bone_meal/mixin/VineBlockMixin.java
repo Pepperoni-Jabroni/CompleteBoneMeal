@@ -11,6 +11,7 @@ import org.spongepowered.asm.mixin.Implements;
 import org.spongepowered.asm.mixin.Interface;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
+import pepjebs.complete_bone_meal.CompleteBoneMealMod;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -22,7 +23,7 @@ public class VineBlockMixin {
     private final VineBlock vineBlock = ((VineBlock) (Object) this);
 
     public boolean fertilizable$isFertilizable(BlockView world, BlockPos pos, BlockState state, boolean isClient) {
-        return true;
+        return CompleteBoneMealMod.CONFIG == null || CompleteBoneMealMod.CONFIG.enableVineBoneMeal;
     }
 
     public boolean fertilizable$canGrow(World world, Random random, BlockPos pos, BlockState state) {

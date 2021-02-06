@@ -19,7 +19,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": ["pepjebs.complete_bone_meal.CompleteBoneMealMod"]
+    "main": ["pepjebs.complete_bone_meal.CompleteBoneMealMod"],
+    "modmenu": ["pepjebs.complete_bone_meal.config.CompleteBoneMealModMenuApiImpl"]
   },
   "mixins": ["complete_bone_meal.mixins.json"],
 
