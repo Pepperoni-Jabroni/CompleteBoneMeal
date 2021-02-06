@@ -43,7 +43,12 @@ public class VineBlockMixin {
         }
     }
 
-    private Set<BlockPos> getGrowableLocations(ServerWorld world, BlockPos currentPos, BlockState state, Set<BlockPos> visited, int depth) {
+    private Set<BlockPos> getGrowableLocations(
+            ServerWorld world,
+            BlockPos currentPos,
+            BlockState state,
+            Set<BlockPos> visited,
+            int depth) {
         Set<BlockPos> growableLocs = new HashSet<>();
         for (int i = -1; i < 2; i++) {
             for (int j = -1; j < 2; j++) {
