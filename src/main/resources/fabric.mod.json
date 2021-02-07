@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "complete_bone_meal",
+  "version": "1.0.0",
+
+  "name": "Complete Bone Meal",
+  "description": "Make Bone Meal applicable to *all* growables!",
+  "authors": [
+    "Pepperoni__Jabroni__"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/complete-bone-meal",
+    "sources": "https://github.com/Pepperoni-Jabroni/CompleteBoneMeal",
+    "issues": "https://github.com/Pepperoni-Jabroni/CompleteBoneMeal/issues"
+  },
+
+  "license": "GPL-3.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pepjebs.complete_bone_meal.CompleteBoneMealMod"]
+  },
+  "mixins": ["complete_bone_meal.mixins.json"],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
