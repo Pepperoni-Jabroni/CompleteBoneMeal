@@ -28,4 +28,8 @@ public class CompleteBoneMealConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip()
     @Comment("If 'true', Vines will be Bone-Meal-able")
     public boolean enableVineBoneMeal = true;
+
+    @ConfigEntry.Gui.Tooltip()
+    @Comment("If 'true', Corals will be Bone-Meal-able")
+    public boolean enableCoralBoneMeal = true;
 }

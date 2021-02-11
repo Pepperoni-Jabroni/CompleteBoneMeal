@@ -8,7 +8,9 @@
     "SugarCaneBlockMixin",
     "NetherWartBlockMixin",
     "VineBlockMixin",
-    "ChorusFlowerBlockMixin"
+    "ChorusFlowerBlockMixin",
+    "CoralBlockBlockMixin",
+    "CoralFeatureMixin"
   ],
   "client": [
   ],
