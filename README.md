@@ -9,6 +9,7 @@ The new "Bone Meal"-able crops include:
 - Sugar Cane: Grows 2 blocks taller
    - Not limited to 3 blocks tall, like when grown naturally
 - Chorus Flowers: Generates a grown Chorus Flower tree
+- Coral Blocks: Generates a random Coral structure (if underwater)
 
 The mod also has a config to toggle functionality for any individual growable.
 
