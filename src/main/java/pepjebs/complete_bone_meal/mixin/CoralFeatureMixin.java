@@ -15,7 +15,7 @@ import java.util.Random;
 public abstract class CoralFeatureMixin implements CoralFeatureMixinInterface {
 
     @Shadow
-    protected abstract boolean spawnCoral(WorldAccess world, Random random, BlockPos pos, BlockState state);
+    protected abstract boolean generateCoral(WorldAccess world, Random random, BlockPos pos, BlockState state);
 
     public boolean generateForBlockState(
             StructureWorldAccess structureWorldAccess,
@@ -23,7 +23,7 @@ public abstract class CoralFeatureMixin implements CoralFeatureMixinInterface {
             BlockPos blockPos,
             BlockState blockState
     ) {
-        return this.spawnCoral(structureWorldAccess, random, blockPos, blockState);
+        return this.generateCoral(structureWorldAccess, random, blockPos, blockState);
     }
 
 }
