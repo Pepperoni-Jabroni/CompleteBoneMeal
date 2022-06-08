@@ -6,14 +6,13 @@ import net.minecraft.block.CactusBlock;
 import net.minecraft.block.Fertilizable;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Implements;
 import org.spongepowered.asm.mixin.Interface;
 import org.spongepowered.asm.mixin.Mixin;
 import pepjebs.complete_bone_meal.CompleteBoneMealMod;
-
-import java.util.Random;
 
 @Mixin(CactusBlock.class)
 @Implements(@Interface(iface= Fertilizable.class, prefix = "fertilizable$"))

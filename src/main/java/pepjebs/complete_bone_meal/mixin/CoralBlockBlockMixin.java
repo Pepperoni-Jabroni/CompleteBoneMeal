@@ -5,6 +5,7 @@ import net.minecraft.block.CoralBlockBlock;
 import net.minecraft.block.Fertilizable;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.DefaultFeatureConfig;
@@ -17,7 +18,6 @@ import pepjebs.complete_bone_meal.CompleteBoneMealMod;
 import pepjebs.complete_bone_meal.interfc.CoralFeatureMixinInterface;
 
 import java.util.Arrays;
-import java.util.Random;
 
 @Mixin(CoralBlockBlock.class)
 @Implements(@Interface(iface= Fertilizable.class, prefix = "fertilizable$"))

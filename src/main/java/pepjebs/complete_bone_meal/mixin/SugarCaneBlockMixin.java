@@ -3,14 +3,13 @@ package pepjebs.complete_bone_meal.mixin;
 import net.minecraft.block.*;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Implements;
 import org.spongepowered.asm.mixin.Interface;
 import org.spongepowered.asm.mixin.Mixin;
 import pepjebs.complete_bone_meal.CompleteBoneMealMod;
-
-import java.util.Random;
 
 @Mixin(SugarCaneBlock.class)
 @Implements(@Interface(iface= Fertilizable.class, prefix = "fertilizable$"))
