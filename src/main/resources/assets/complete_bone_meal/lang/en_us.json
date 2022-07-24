@@ -4,5 +4,17 @@
   "text.autoconfig.complete_bone_meal.option.enableChorusFlowerBoneMeal": "If 'true', Chorus Flowers will be Bone-Meal-able",
   "text.autoconfig.complete_bone_meal.option.enableNetherWartBoneMeal": "If 'true', Nether Warts will be Bone-Meal-able",
   "text.autoconfig.complete_bone_meal.option.enableSugarCaneBoneMeal": "If 'true', Sugar Canes will be Bone-Meal-able",
-  "text.autoconfig.complete_bone_meal.option.enableVineBoneMeal": "If 'true', Vines will be Bone-Meal-able"
+  "text.autoconfig.complete_bone_meal.option.enableVineBoneMeal": "If 'true', Vines will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableCoralBoneMeal": "If 'true', Coral will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableDeadBushBoneMeal": "If 'true', Dead Bushes will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableFlowerBoneMeal": "If 'true', Flowers will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableHangingRootsMeal": "If 'true', Hanging Roots will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableLeavesBoneMeal": "If 'true', Leaves will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableLilyPadsBoneMeal": "If 'true', Lily Pads will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableMyceliumBoneMeal": "If 'true', Mycelium will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableRootsBoneMeal": "If 'true', Nether Roots will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableSpongeBoneMeal": "If 'true', Sponges will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableSporeBlossomsBoneMeal": "If 'true', Spore Blossoms will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableSproutsBoneMeal": "If 'true', Nether Sprouts will be Bone-Meal-able",
+  "text.autoconfig.complete_bone_meal.option.enableTallPlantsBoneMeal": "If 'true', Tall Plants will be Bone-Meal-able"
 }
