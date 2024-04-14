@@ -25,7 +25,7 @@ public class VineBlockMixin {
 
     private final VineBlock vineBlock = ((VineBlock) (Object) this);
 
-    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state, boolean isClient) {
+    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state) {
         return CompleteBoneMealMod.CONFIG == null || CompleteBoneMealMod.CONFIG.enableVineBoneMeal;
     }
 

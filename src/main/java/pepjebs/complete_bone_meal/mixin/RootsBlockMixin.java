@@ -19,7 +19,7 @@ public class RootsBlockMixin extends Block {
         super(settings);
     }
 
-    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state, boolean isClient) {
+    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state) {
         return CompleteBoneMealMod.CONFIG == null || CompleteBoneMealMod.CONFIG.enableRootsBoneMeal;
     }
 

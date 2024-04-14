@@ -20,7 +20,7 @@ public class DeadBushMixin extends Block {
         super(settings);
     }
 
-    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state, boolean isClient) {
+    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state) {
         return CompleteBoneMealMod.CONFIG == null || CompleteBoneMealMod.CONFIG.enableDeadBushBoneMeal;
     }
 

@@ -27,7 +27,7 @@ public class CoralBlockBlockMixin {
     @Shadow
     protected boolean isInWater(BlockView world, BlockPos pos) { return false; }
 
-    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state, boolean isClient) {
+    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state) {
         return CompleteBoneMealMod.CONFIG == null || CompleteBoneMealMod.CONFIG.enableCoralBoneMeal;
     }
 

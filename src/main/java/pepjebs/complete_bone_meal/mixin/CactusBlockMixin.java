@@ -18,7 +18,7 @@ import pepjebs.complete_bone_meal.CompleteBoneMealMod;
 @Implements(@Interface(iface= Fertilizable.class, prefix = "fertilizable$"))
 public class CactusBlockMixin {
 
-    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state, boolean isClient) {
+    public boolean fertilizable$isFertilizable(WorldView world, BlockPos pos, BlockState state) {
         return CompleteBoneMealMod.CONFIG == null || CompleteBoneMealMod.CONFIG.enableCactusBoneMeal;
     }
 
